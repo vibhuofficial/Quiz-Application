@@ -1,0 +1,17 @@
+
+ <div id="bgimage">
+    <h1>Welcome to Quiz Time</h1><br>
+    
+    <div class="form-center"><br>
+   <form  >
+    <label for="formGroupExampleInput" class="form-label" style="text-decoration: underline;">FULL NAME</label>
+    <input #name type="text" required class="form-control" placeholder="Enter Full Name" style="width: 120%;" ><br>
+    
+    
+    <label for="formGroupExampleInput2" class="form-label" style="text-decoration: underline;">EMAIL ADDRESS</label>
+    <input type="email" required class="form-control"  placeholder="Enter EMAIL" style="width: 120%;"><br>
+   
+    <div class="col-12">
+      <button type="submit"  class="btn btn-primary" routerLink="/question" (click)="startQuiz()">Start the quiz</button>
+    </div></form></div>
+  </div> 
